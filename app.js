@@ -193,7 +193,6 @@ const developmentalData = {
                 "Facial features clearly defined"
             ],
             tips: [
-                "Start planning maternity leave if working",
                 "Continue regular exercise as approved",
                 "Begin pregnancy-safe stretching routines",
                 "Plan healthy snacks for energy boosts",
@@ -377,7 +376,6 @@ const developmentalData = {
                 "Stay hydrated and maintain regular exercise",
                 "Monitor fetal movements",
                 "Consider starting a pregnancy journal",
-                "Begin planning for maternity leave"
             ]
         },
         20: {
@@ -517,7 +515,6 @@ const developmentalData = {
                 "Consider childbirth education classes",
                 "Practice pelvic floor exercises",
                 "Monitor swelling in hands and feet",
-                "Plan maternity leave details"
             ]
         },
         27: {
@@ -597,7 +594,6 @@ const developmentalData = {
                 "Sleep with support pillows",
                 "Continue regular exercise if able",
                 "Practice pelvic floor exercises",
-                "Begin preparing for maternity leave"
             ]
         },
         31: {
@@ -615,7 +611,6 @@ const developmentalData = {
             tips: [
                 "Monitor fetal movement patterns",
                 "Practice relaxation techniques",
-                "Prepare for maternity leave",
                 "Review hospital bag contents",
                 "Learn signs of preterm labor"
             ]

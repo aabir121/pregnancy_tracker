@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <!-- Baby Face -->
+    <circle cx="60" cy="60" r="50" fill="#FFB6C1" stroke="#FF69B4" stroke-width="3"/>
+    
+    <!-- Eyes -->
+    <circle cx="45" cy="50" r="5" fill="#4A4A4A"/>
+    <circle cx="75" cy="50" r="5" fill="#4A4A4A"/>
+    
+    <!-- Rosy Cheeks -->
+    <circle cx="35" cy="65" r="8" fill="#FF69B4" opacity="0.5"/>
+    <circle cx="85" cy="65" r="8" fill="#FF69B4" opacity="0.5"/>
+    
+    <!-- Smile -->
+    <path d="M45 70 Q60 85 75 70" fill="none" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Pacifier -->
+    <circle cx="60" cy="78" r="6" fill="#FF1493"/>
+    <path d="M54 78 Q60 85 66 78" fill="none" stroke="#FF1493" stroke-width="3"/>
+</svg>

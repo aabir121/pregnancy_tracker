@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="70" fill="#FFB6C1" stroke="#FF69B4" stroke-width="3"/>
+    
+    <!-- Closed Eyes -->
+    <path d="M65,85 Q75,82 85,85" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M115,85 Q125,82 135,85" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Rosy Cheeks -->
+    <circle cx="65" cy="110" r="10" fill="#FFB6C1" opacity="0.5"/>
+    <circle cx="135" cy="110" r="10" fill="#FFB6C1" opacity="0.5"/>
+    
+    <!-- Peaceful Smile -->
+    <path d="M70,120 Q100,130 130,120" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- ZZZ -->
+    <text x="150" y="60" font-family="Arial" font-size="20" fill="#333">z</text>
+    <text x="160" y="45" font-family="Arial" font-size="16" fill="#333">z</text>
+    <text x="170" y="30" font-family="Arial" font-size="12" fill="#333">z</text>
+</svg>

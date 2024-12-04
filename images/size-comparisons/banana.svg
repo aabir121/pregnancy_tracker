@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bananaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFE082"/>
+            <stop offset="100%" style="stop-color:#FFD54F"/>
+        </linearGradient>
+    </defs>
+    <path d="M20 80 C40 80 60 70 70 50 C80 30 70 20 60 20 C50 20 40 30 30 50 C20 70 20 80 20 80" fill="url(#bananaGradient)"/>
+    <path d="M60 20 Q70 15 75 25" stroke="#4CAF50" fill="none" stroke-width="2"/>
+</svg>

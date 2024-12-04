@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+    <!-- Tips Icon -->
+    <circle cx="20" cy="20" r="18" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+    
+    <!-- Lightbulb -->
+    <path d="M20 8 L20 12 M15 10 L25 10 L23 18 L17 18 L15 10 Z" fill="#4A4A4A" stroke="#4A4A4A" stroke-width="1"/>
+    <rect x="18" y="18" width="4" height="6" fill="#4A4A4A"/>
+    
+    <!-- Light Rays -->
+    <line x1="13" y1="8" x2="15" y2="10" stroke="#4A4A4A" stroke-width="1"/>
+    <line x1="27" y1="8" x2="25" y2="10" stroke="#4A4A4A" stroke-width="1"/>
+</svg>

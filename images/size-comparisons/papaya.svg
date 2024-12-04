@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="papayaGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FFB300"/>
+            <stop offset="100%" style="stop-color:#FF8F00"/>
+        </radialGradient>
+        <radialGradient id="papayaInside" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FF8A65"/>
+            <stop offset="100%" style="stop-color:#FF5722"/>
+        </radialGradient>
+    </defs>
+    <ellipse cx="50" cy="55" rx="35" ry="30" fill="url(#papayaGradient)"/>
+    <ellipse cx="50" cy="55" rx="25" ry="20" fill="url(#papayaInside)"/>
+    <circle cx="50" cy="55" r="15" fill="#424242"/>
+    <path d="M50 25 Q65 25 65 40" stroke="#4CAF50" fill="none" stroke-width="3"/>
+    <path d="M50 25 Q35 25 35 40" stroke="#4CAF50" fill="none" stroke-width="3"/>
+</svg>

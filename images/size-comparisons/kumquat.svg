@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="kumquatGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FF9800"/>
+            <stop offset="100%" style="stop-color:#F57C00"/>
+        </radialGradient>
+    </defs>
+    <ellipse cx="50" cy="50" rx="18" ry="15" fill="url(#kumquatGradient)"/>
+    <!-- Stem -->
+    <path d="M50 35 L50 38" stroke="#4CAF50" stroke-width="2"/>
+    <path d="M48 36 L52 36" stroke="#4CAF50" stroke-width="1"/>
+    <!-- Texture -->
+    <path d="M40 45 Q50 55 60 45" fill="none" stroke="#FB8C00" stroke-width="1"/>
+    <path d="M40 55 Q50 65 60 55" fill="none" stroke="#FB8C00" stroke-width="1"/>
+</svg>

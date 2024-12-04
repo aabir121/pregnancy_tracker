@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="rutabagaGradient" cx="50%" cy="60%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FFE0B2"/>
+            <stop offset="100%" style="stop-color:#FFB74D"/>
+        </radialGradient>
+    </defs>
+    <path d="M50 30 C25 30 20 50 20 70 C20 85 35 90 50 90 C65 90 80 85 80 70 C80 50 75 30 50 30" fill="url(#rutabagaGradient)"/>
+    <path d="M50 30 Q65 25 65 15" stroke="#4CAF50" fill="none" stroke-width="3"/>
+    <path d="M50 30 Q35 25 35 15" stroke="#4CAF50" fill="none" stroke-width="3"/>
+    <path d="M45 15 L55 15" stroke="#4CAF50" stroke-width="3"/>
+    <!-- Root texture -->
+    <path d="M30 60 Q50 70 70 60" fill="none" stroke="#FFB74D" stroke-width="1"/>
+    <path d="M30 70 Q50 80 70 70" fill="none" stroke="#FFB74D" stroke-width="1"/>
+</svg>

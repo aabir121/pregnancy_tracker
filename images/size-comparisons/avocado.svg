@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="avocadoGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#33691E"/>
+            <stop offset="100%" style="stop-color:#1B5E20"/>
+        </radialGradient>
+    </defs>
+    <path d="M50 20 C25 20 20 50 20 70 C20 85 35 90 50 90 C65 90 80 85 80 70 C80 50 75 20 50 20" fill="url(#avocadoGradient)"/>
+    <circle cx="50" cy="55" r="15" fill="#8D6E63"/>
+</svg>

@@ -407,10 +407,20 @@ const developmentalData = {
 // Image data for the application
 const imageData = {
     sizeComparisons: {
+        1: {
+            image: "images/size-comparisons/grain-of-salt.svg",
+            alt: "A grain of salt for size comparison",
+            description: "Your baby is about the size of a grain of salt"
+        },
+        2: {
+            image: "images/size-comparisons/grain-of-sand.svg",
+            alt: "A grain of sand for size comparison",
+            description: "Your baby is about the size of a grain of sand"
+        },
         3: {
-            image: "images/size-comparisons/pinhead.svg",
-            alt: "A pinhead for size comparison",
-            description: "Your baby is about the size of a pinhead"
+            image: "images/size-comparisons/pinpoint.svg",
+            alt: "A pinpoint for size comparison",
+            description: "Your baby is about the size of a pinpoint"
         },
         4: {
             image: "images/size-comparisons/poppy-seed.svg",
@@ -583,7 +593,7 @@ const imageData = {
 };
 
 // Baby moods for random selection
-const babyMoods = ['happy', 'sleeping', 'curious'];
+const babyMoods = ['happy', 'sleeping', 'curious']
 
 // Constants
 const TOTAL_PREGNANCY_DAYS = 280; // 40 weeks

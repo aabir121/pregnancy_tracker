@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sand grain -->
+    <circle cx="50" cy="50" r="15" 
+            fill="#f4d03f" 
+            stroke="#e5b830" 
+            stroke-width="2"
+            filter="url(#shadow)"/>
+    
+    <!-- Texture -->
+    <circle cx="45" cy="45" r="6" 
+            fill="#f7dc6f" 
+            opacity="0.6"/>
+    
+    <!-- Highlight -->
+    <circle cx="43" cy="43" r="3" 
+            fill="#ffffff" 
+            opacity="0.4"/>
+    
+    <!-- Shadow filter -->
+    <defs>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+            <feOffset dx="1" dy="1" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.3"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+</svg>

@@ -30,6 +30,40 @@
     100% { background-position: 1000px 0; }
 }
 
+@keyframes crawl {
+    0% {
+        left: -100px;
+        transform: scaleX(1) translateY(0px);
+    }
+    25% {
+        left: 25%;
+        transform: scaleX(1) translateY(-10px);
+    }
+    50% {
+        left: 50%;
+        transform: scaleX(1) translateY(0px);
+    }
+    75% {
+        left: 75%;
+        transform: scaleX(1) translateY(-10px);
+    }
+    100% {
+        left: calc(100% + 100px);
+        transform: scaleX(1) translateY(0px);
+    }
+}
+
+.crawling-baby {
+    position: fixed;
+    bottom: 30px;
+    width: 100px;
+    height: auto;
+    z-index: 9999;
+    animation: crawl 30s linear infinite;
+    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+    pointer-events: none;
+}
+
 body {
     font-family: 'Comfortaa', sans-serif;
     background: linear-gradient(135deg, var(--background), white);

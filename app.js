@@ -1095,12 +1095,12 @@ function updateDevelopmentInfo(week) {
             <div class="milestone-item">
                 ${weekData.description}
             </div>
-            <div class="milestone-item">
-                <strong>Development Highlights</strong>
-                <ul class="development-list">
-                    ${weekData.developmentalHighlights.map(highlight => `<li>${highlight}</li>`).join('')}
-                </ul>
-            </div>
+            <strong>Development Highlights</strong>
+            ${weekData.developmentalHighlights.map(tip => `
+                <div class="tip-item">
+                    <p>${tip}</p>
+                </div>
+            `).join('')}
         `;
 
         // Update mother's changes and tips

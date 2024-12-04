@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="60" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .baby {
+            fill: #FF69B4;
+            stroke: #FF1493;
+            stroke-width: 2;
+        }
+        @keyframes crawlParts {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-2px); }
+        }
+        .limb {
+            animation: crawlParts 0.5s ease-in-out infinite;
+        }
+    </style>
+    <g class="baby">
+        <!-- Body -->
+        <circle cx="50" cy="30" r="20"/>
+        <!-- Head -->
+        <circle cx="75" cy="25" r="15"/>
+        <!-- Arms -->
+        <circle class="limb" cx="35" cy="40" r="8"/>
+        <circle class="limb" cx="65" cy="40" r="8"/>
+        <!-- Legs -->
+        <circle class="limb" cx="30" cy="45" r="10"/>
+        <circle class="limb" cx="70" cy="45" r="10"/>
+    </g>
+</svg>
